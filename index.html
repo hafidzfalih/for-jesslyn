@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kejutan untuk Jesslyn 🎉</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #ffcccc, #ff6666);
+      font-family: 'Poppins', sans-serif;
+      color: #333;
+      opacity: 0;
+      animation: fadeIn 1.5s ease forwards;
+    }
+    .card {
+      text-align: center;
+      padding: 40px;
+      background: rgba(255,255,255,0.7);
+      border-radius: 20px;
+      backdrop-filter: blur(15px);
+      box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+      transform: translateY(30px);
+      opacity: 0;
+      animation: slideUp 2s ease forwards 0.5s;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+    a button {
+      padding: 12px 30px;
+      border: none;
+      border-radius: 30px;
+      font-size: 1rem;
+      cursor: pointer;
+      background: linear-gradient(135deg, #ff758c, #ff7eb3);
+      color: white;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+    a button:hover {
+      background: linear-gradient(135deg, #ff5e78, #ff6fa0);
+      transform: scale(1.05);
+    }
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+    @keyframes slideUp {
+      to { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Hai Jesslyn ✨</h1>
+    <p>Ada sesuatu yang spesial untuk kamu...</p>
+    <a href="surprise.html">
+      <button>Klik Kejutan 🎁</button>
+    </a>
+  </div>
+</body>
+</html>
